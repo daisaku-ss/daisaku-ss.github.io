@@ -26,16 +26,28 @@ collections:
   projects:
     output: true
 
-title: dshibata
-#email: A
-description: >-
+#source:      .
+#destination: ./_site
+#includes:    ./_includes
 
-#twitter_username: jekyllrb
-#github_username:  jekyll
+#collections:
+  #projects:
+    #output: true
 
-domain: daisaku-ss.github.io       # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
-url: "https://daisaku-ss.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+#title: dshibata
+#description: >-
+
+#domain: daisaku-ss.github.io       # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
+#url: "https://daisaku-ss.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 #baseurl: /~dshibata     # place folder name if the site is served in a subfolder
+
+
+
+
+
+
+
+
 
 # Build settings
 #theme: minima
@@ -61,3 +73,4 @@ url: "https://daisaku-ss.github.io" # the base hostname & protocol for your site
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
