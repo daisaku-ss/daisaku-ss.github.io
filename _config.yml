@@ -28,14 +28,14 @@ collections:
 
 title: dshibata
 #email: A
-description: A
+description: >-
 
 #twitter_username: jekyllrb
 #github_username:  jekyll
 
 domain: daisaku-ss.github.io       # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
 url: "https://daisaku-ss.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: /daisaku-ss     # place folder name if the site is served in a subfolder
+baseurl: /~dshibata     # place folder name if the site is served in a subfolder
 
 # Build settings
 #theme: minima
