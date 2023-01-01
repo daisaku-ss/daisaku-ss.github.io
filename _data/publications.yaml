@@ -28,7 +28,7 @@ papers:
     venue: "人工知能学会論文誌. 第34巻4号"
     paper_url: "https://www.jstage.jst.go.jp/article/tjsai/34/4/34_B-J11/_article/-char/ja/"
     #paper_pdf: ""
-    selected: y
+    selected: n
 
   - title: "Idea density in Japanese for the early detection of dementia based on narrative speech"
     authors: "<b>Daisaku Shibata</b>, Kaoru Ito K, Hiroyuki Nagai , Taro Okahisa, Ayae Kinoshita , Eiji Aramaki"
@@ -77,6 +77,7 @@ papers:
     paper_url: 
     code: "https://github.com/aih-uth/IE-from-iCorpus"
     selected: y
+
 
   - title: "詳細なアノテーション基準に基づく症例報告コーパスからの固有表現及び関係の抽出精度"
     authors: "<b>柴田 大作</b>, 河添 悦昌, 篠原 恵美子, 嶋本 公徳"
