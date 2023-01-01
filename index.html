@@ -24,7 +24,10 @@ title: Home
 
   <ul class="tab-nav">
     <li><div class="button active" data-ref="#papers-selected">Selected</div></li>
-    <li><div class="button" data-ref="#papers-all">All</div></li>
+    <!--<<li><div class="button" data-ref="#papers-all">All</div></li>-->
+    <li><div class="button" data-ref="#journal-papers">Journal</div></li>
+    <li><div class="button" data-ref="#i-conf-papers">International Conference</div></li>
+    <li><div class="button" data-ref="#d-conf-papers">Domestic Conference</div></li>
   </ul>
 
   <div class="tab-content">
@@ -59,12 +62,13 @@ title: Home
             {% if paper.data %}
               <a class="button" href="{{ paper.data }}" target="_blank">Data</a>
             {% endif %}
-
           </div>
         </div>
       {% endfor %}
     </div>
 
+
+    <!-- 全ての論文を表示するタブ
     <div class="tab-pane" id="papers-all">
       {% for paper in site.data.publications.papers %}
         <div class="paper">
@@ -73,17 +77,9 @@ title: Home
           <p><i>{{ paper.venue }}</i></p>
            <div class="paper-buttons">
 
-            <!--{% if paper.paper_pdf %}
-              <a class="button" href="{{ paper.paper_pdf | prepend: site.baseurl }}" target="_blank">Paper</a>
-            {% endif %}-->
-
             {% if paper.paper_url %}
               <a class="button" href="{{ paper.paper_url }}" target="_blank">Paper</a>
             {% endif %}
-
-            <!--{% if paper.slides %}
-              <a class="button" href="{{ paper.slides | prepend: site.baseurl }}" target="_blank">Slides</a>
-            {% endif %}-->
 
             {% if paper.slides %}
               <a class="button" href="{{ paper.slides }}" target="_blank">Slides</a>
@@ -109,8 +105,123 @@ title: Home
         </div>
       {% endfor %}
     </div>
+    -->
+
+    <div class="tab-pane" id="journal-papers">
+      {% assign journal_papers = site.data.publications.papers | where: "journal", "y" %}
+      {% for paper in journal_papers %}
+        <div class="paper">
+          <p class="title"><b>{{ paper.title }}</b></p>
+          <p>{{ paper.authors }}</p>
+          <p><i>{{ paper.venue }}</i></p>
+           <div class="paper-buttons">
+            {% if paper.paper_pdf %}
+              <a class="button" href="{{ paper.paper_pdf | prepend: site.baseurl }}" target="_blank">Paper</a>
+            {% endif %}
+  
+            {% if paper.slides %}
+              <a class="button" href="{{ paper.slides | prepend: site.baseurl }}" target="_blank">Slides</a>
+            {% endif %}
+  
+            {% if paper.poster %}
+              <a class="button" href="{{ paper.poster | prepend: site.baseurl }}" target="_blank">Poster</a>
+            {% endif %}
+  
+            {% if paper.video %}
+              <a class="button" href="{{ paper.video }}" target="_blank">Video</a>
+            {% endif %}
+  
+            {% if paper.code %}
+              <a class="button" href="{{ paper.code }}" target="_blank">Code</a>
+            {% endif %}
+  
+            {% if paper.data %}
+              <a class="button" href="{{ paper.data }}" target="_blank">Data</a>
+            {% endif %}
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+
+
+    <div class="tab-pane" id="i-conf-papers">
+      {% assign journal_papers = site.data.publications.papers | where: "iconf", "y" %}
+      {% for paper in journal_papers %}
+        <div class="paper">
+          <p class="title"><b>{{ paper.title }}</b></p>
+          <p>{{ paper.authors }}</p>
+          <p><i>{{ paper.venue }}</i></p>
+           <div class="paper-buttons">
+            {% if paper.paper_pdf %}
+              <a class="button" href="{{ paper.paper_pdf | prepend: site.baseurl }}" target="_blank">Paper</a>
+            {% endif %}
+  
+            {% if paper.slides %}
+              <a class="button" href="{{ paper.slides | prepend: site.baseurl }}" target="_blank">Slides</a>
+            {% endif %}
+  
+            {% if paper.poster %}
+              <a class="button" href="{{ paper.poster | prepend: site.baseurl }}" target="_blank">Poster</a>
+            {% endif %}
+  
+            {% if paper.video %}
+              <a class="button" href="{{ paper.video }}" target="_blank">Video</a>
+            {% endif %}
+  
+            {% if paper.code %}
+              <a class="button" href="{{ paper.code }}" target="_blank">Code</a>
+            {% endif %}
+  
+            {% if paper.data %}
+              <a class="button" href="{{ paper.data }}" target="_blank">Data</a>
+            {% endif %}
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+
+    <div class="tab-pane" id="d-conf-papers">
+      {% assign journal_papers = site.data.publications.papers | where: "dconf", "y" %}
+      {% for paper in journal_papers %}
+        <div class="paper">
+          <p class="title"><b>{{ paper.title }}</b></p>
+          <p>{{ paper.authors }}</p>
+          <p><i>{{ paper.venue }}</i></p>
+           <div class="paper-buttons">
+            {% if paper.paper_pdf %}
+              <a class="button" href="{{ paper.paper_pdf | prepend: site.baseurl }}" target="_blank">Paper</a>
+            {% endif %}
+  
+            {% if paper.slides %}
+              <a class="button" href="{{ paper.slides | prepend: site.baseurl }}" target="_blank">Slides</a>
+            {% endif %}
+  
+            {% if paper.poster %}
+              <a class="button" href="{{ paper.poster | prepend: site.baseurl }}" target="_blank">Poster</a>
+            {% endif %}
+  
+            {% if paper.video %}
+              <a class="button" href="{{ paper.video }}" target="_blank">Video</a>
+            {% endif %}
+  
+            {% if paper.code %}
+              <a class="button" href="{{ paper.code }}" target="_blank">Code</a>
+            {% endif %}
+  
+            {% if paper.data %}
+              <a class="button" href="{{ paper.data }}" target="_blank">Data</a>
+            {% endif %}
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+
+
   </div>
 </div>
+
+
+
 
 <!-- ========== PROJECTS ========== 
 <div class="docs-section" id="projects">
@@ -189,32 +300,40 @@ title: Home
 
 <div class="docs-section" id="template">
   <h4>Award</h4>
-  <ul>
-    <li><a href="https://www.jami.jp/award/acaPaperAward2022.html">2022年 日本医療情報学会第5回学術論文賞</a>.</li>
-    <li><a href="https://www.ai-gakkai.or.jp/about/award/jsai_award-paper/">2019年 人工知能学会論文賞</a>.</li>
-    <li><a href="http://jami.jp/award/acaEncourAward2019.html">2019年 学術奨励賞 (第39回医療情報学連合大会), 優秀口演賞</a>.</li>
-  </ul>
-</div>
 
+  <div>
+    <p><a href="https://www.jami.jp/award/acaPaperAward2022.html">2022年 日本医療情報学会第5回学術論文賞</a>.</p>
+  </div>
+
+  <div>
+    <p><a href="https://www.ai-gakkai.or.jp/about/award/jsai_award-paper/">2019年 人工知能学会論文賞</a></p>
+  </div>
+
+  <div>
+    <p><a href="http://jami.jp/award/acaEncourAward2019.html">2019年 学術奨励賞 (第39回医療情報学連合大会), 優秀口演賞</a>.</p>
+  </div>
+
+</div>
 
 
 <div class="docs-section" id="template">
   <h4>Funding</h4>
-  <ul>
-    <li>2021年10月~2023年3月, 文部科学省, 科研費, 研究活動スタート支援 (21K21306), 人工知能による健康相談の対話コーパス開発に関する調査研究.</li>
-    <li>2020年4月~2021年3月, 文部科学省, 科研費, 特別研究員奨励費 (20J12069), 電子カルテデータからの患者状態表現の自動抽出に関する研究.</li>
-  </ul>
+  <div>
+    <p>2021年10月~2023年3月, 文部科学省, 科研費, 研究活動スタート支援 (21K21306), 人工知能による健康相談の対話コーパス開発に関する調査研究.</p>
+  </div>
+  <div>
+    <p>2020年4月~2021年3月, 文部科学省, 科研費, 特別研究員奨励費 (20J12069), 電子カルテデータからの患者状態表現の自動抽出に関する研究.</p>
+  </div>
 </div>
+
 
 <div class="docs-section" id="template">
   <h4>Skill</h4>
-  <ul>
-    <li>Kaggle Expert</li>
-    <ul>
-      <li>U.S. Patent Phrase to Phrase Matching: Top8%</li>
-      <li>Home Credit Default Risk: Top10%</li>
-    </ul>
-  </ul>
+
+  <div>
+    <p>Kaggle Expert (U.S. Patent Phrase to Phrase Matching: Top8%, Home Credit Default Risk: Top10%).</p>
+  </div>
+
 </div>
 
 
