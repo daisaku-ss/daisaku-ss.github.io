@@ -1,13 +1,13 @@
 papers:
 
-
   - title: "Development of comprehensive annotation criteria for patients states from clinical texts"
     authors: "Emiko Shinohara, <b>Daisaku Shibata</b>, Yoshimasa Kawazoe"
     venue: "Journal of Biomedical Informatics"
     #paper_pdf: "/assets/publications/2021_esc_the_room/paper.pdf"
     paper_url: "https://www.sciencedirect.com/science/article/pii/S1532046422002052"
     code: "https://github.com/aih-uth/NerRe4paper"
-    selected: n
+    #selected: n
+    journal: y
 
   - title: "A clinical specific BERT developed using a huge Japanese clinical text corpus"
     authors: "Yoshimasa Kawazoe, <b>Daisaku Shibata</b>, Emiko Shinohara, Eiji Aramaki, Kazuhiko Ohe"
@@ -15,20 +15,23 @@ papers:
     paper_url: "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0259763"
     #paper_pdf: "/assets/publications/2022_newsbridge/paper.pdf"
     selected: y
+    journal: y
 
   - title: "診療記録で事前学習したBERTによる疼痛表現の抽出"
     authors: "<b>柴田 大作</b>, 河添 悦昌, 嶋本 公徳, 篠原 恵美子, 荒牧 英治"
     venue: "医療情報学40巻2号"
     #paper_pdf: "/assets/publications/2022_newsbridge/paper.pdf"
     paper_url: "https://www.jstage.jst.go.jp/article/jami/40/2/40_73/_article/-char/ja/"
-    selected: n
+    #selected: n
+    journal: y
 
   - title: "対照群付き高齢者コーパスの構築とそれを用いた認知症予備軍スクリーニング技術の開発"
     authors: "<b>柴田 大作</b>，伊藤 薫，若宮 翔子，荒牧 英治"
     venue: "人工知能学会論文誌. 第34巻4号"
     paper_url: "https://www.jstage.jst.go.jp/article/tjsai/34/4/34_B-J11/_article/-char/ja/"
     #paper_pdf: ""
-    selected: n
+    #selected: n
+    journal: y
 
   - title: "Idea density in Japanese for the early detection of dementia based on narrative speech"
     authors: "<b>Daisaku Shibata</b>, Kaoru Ito K, Hiroyuki Nagai , Taro Okahisa, Ayae Kinoshita , Eiji Aramaki"
@@ -36,13 +39,15 @@ papers:
     paper_url: "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0208418"
     #paper_pdf: ""
     selected: y
+    journal: y
 
   - title: "音声発話による認知症スクリーニング技術の開発"
     authors: "<b>柴田 大作</b>，若宮 翔子，木下 彩栄，荒牧 英治"
     venue: "医療情報学37巻6号"
     paper_url: "https://www.jstage.jst.go.jp/article/jami/37/6/37_303/_article/-char/ja/"
     #paper_pdf: ""
-    selected: n
+    #selected: n
+    journal: y
 
 
 # 国際会議
@@ -51,14 +56,19 @@ papers:
     authors: "<b>Daisaku Shibata</b>, Shoko Wakamiya, Kaoru Ito, Mai Miyabe, Ayae Kinoshita, Eiji Aramaki"
     venue: "Annual meeting of the intelligent interfaces community 2018"
     paper_url: "https://dl.acm.org/doi/10.1145/3180308.3180332"
+    iconf: y
     #paper_pdf: ""
-    selected: n
+    #selected: n
+    #journal: n
 
   - title: "Detecting Alzheimer’s Disease based on Word Category Frequencies"
     authors: "<b>Daisaku Shibata</b>, Shoko Wakamiya, Ayae Kinoshita, Eiji Aramaki"
     venue: "In Proc. of the International Conference on Computational Linguistics Workshop on Clinical Natural Language Processing"
     paper_url: "https://aclanthology.org/W16-4211/"
-    selected: n
+    iconf: y
+    #selected: n
+    #journal: n
+
 
 # 国内会議
 
@@ -69,6 +79,8 @@ papers:
     code: "https://github.com/aih-uth/Automatic-Coding"
     slides: "/assets/publications/JCMI42.pdf"
     selected: y
+    dconf: y
+    #journal: n
 
 
   - title: "希少・難治性疾患の症例報告テキストコーパスと情報抽出精度の評価"
@@ -77,6 +89,8 @@ papers:
     paper_url: 
     code: "https://github.com/aih-uth/IE-from-iCorpus"
     selected: y
+    dconf: y
+    #journal: n
 
 
   - title: "詳細なアノテーション基準に基づく症例報告コーパスからの固有表現及び関係の抽出精度"
@@ -85,7 +99,9 @@ papers:
     paper_url: 
     code: "https://github.com/aih-uth/joint-information-extraction-hs"
     slides: "/assets/publications/JCMI41.pdf"
-    selected: n
+    dconf: y
+    #selected: n
+    #journal: n
 
 
   #- title: "Social Catalysts: Characterizing People Who Spark Conversations Among Others"
