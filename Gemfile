@@ -14,10 +14,11 @@ gem "minima", "~> 2.5"
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
 
 # gem "github-pages", group: :jekyll_plugins
-gem "github-pages", "~> GITHUB-PAGES-VERSION", group: :jekyll_plugins
+# gem "github-pages", "~> GITHUB-PAGES-VERSION", group: :jekyll_plugins
+gem "github-pages", "~> 203", group: :jekyll_plugins
 # gem 'github-pages', '>=104', group: :jekyll_plugins
 
-gem 'github-pages', group: :jekyll_plugins
+#gem 'github-pages', group: :jekyll_plugins
 gem 'html-proofer', '~> 3.7.0'
 
 # If you have any plugins, put them here!
