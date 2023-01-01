@@ -20,7 +20,7 @@ gem "minima", "~> 2.5"
 
 # gem "github-pages", group: :jekyll_plugins
 gem "github-pages", "~> 203", group: :jekyll_plugins
-gem 'rdiscount'
+#gem 'rdiscount'
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
@@ -39,8 +39,12 @@ gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
 
 # Lock `http_parser.rb` gem to `v0.6.x` on JRuby builds since newer versions of the gem
 # do not have a Java counterpart.
-gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
-
-gem "webrick", "~> 1.7"
+gem "http_parser.rb", "~> 0.8.0", :platforms => [:jruby]
 
 gem "jekyll", "~> 3.8"
+gem "webrick", "~> 1.7"
+
+gem 'rexml', '~> 3.2'
+
+
+
