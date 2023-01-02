@@ -39,8 +39,13 @@ title: Home
           <p>{{ paper.authors }}</p>
           <p><i>{{ paper.venue }}</i></p>
            <div class="paper-buttons">
+
             {% if paper.paper_pdf %}
               <a class="button" href="{{ paper.paper_pdf | prepend: site.baseurl }}" target="_blank">Paper</a>
+            {% endif %}
+
+            {% if paper.paper_url %}
+              <a class="button" href="{{ paper.paper_url}}" target="_blank">Paper</a>
             {% endif %}
 
             {% if paper.slides %}
@@ -118,6 +123,10 @@ title: Home
             {% if paper.paper_pdf %}
               <a class="button" href="{{ paper.paper_pdf | prepend: site.baseurl }}" target="_blank">Paper</a>
             {% endif %}
+
+            {% if paper.paper_url %}
+              <a class="button" href="{{ paper.paper_url}}" target="_blank">Paper</a>
+            {% endif %}
   
             {% if paper.slides %}
               <a class="button" href="{{ paper.slides | prepend: site.baseurl }}" target="_blank">Slides</a>
@@ -152,8 +161,13 @@ title: Home
           <p>{{ paper.authors }}</p>
           <p><i>{{ paper.venue }}</i></p>
            <div class="paper-buttons">
+
             {% if paper.paper_pdf %}
               <a class="button" href="{{ paper.paper_pdf | prepend: site.baseurl }}" target="_blank">Paper</a>
+            {% endif %}
+          
+            {% if paper.paper_url %}
+              <a class="button" href="{{ paper.paper_url}}" target="_blank">Paper</a>
             {% endif %}
   
             {% if paper.slides %}
@@ -188,8 +202,13 @@ title: Home
           <p>{{ paper.authors }}</p>
           <p><i>{{ paper.venue }}</i></p>
            <div class="paper-buttons">
+
             {% if paper.paper_pdf %}
               <a class="button" href="{{ paper.paper_pdf | prepend: site.baseurl }}" target="_blank">Paper</a>
+            {% endif %}
+
+            {% if paper.paper_url %}
+              <a class="button" href="{{ paper.paper_url}}" target="_blank">Paper</a>
             {% endif %}
   
             {% if paper.slides %}
