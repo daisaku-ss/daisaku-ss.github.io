@@ -21,14 +21,14 @@ papers:
     authors: "<b>柴田 大作</b>, 河添 悦昌, 嶋本 公徳, 篠原 恵美子, 荒牧 英治"
     venue: "医療情報学40巻2号"
     #paper_pdf: "/assets/publications/2022_newsbridge/paper.pdf"
-    paper_url: "https://www.jstage.jst.go.jp/article/jami/40/2/40_73/_article/-char/ja/"
+    paper_url: "https://www.jstage.jst.go.jp/article/jami/40/2/40_73/_pdf/-char/ja"
     #selected: n
     journal: y
 
   - title: "対照群付き高齢者コーパスの構築とそれを用いた認知症予備軍スクリーニング技術の開発"
     authors: "<b>柴田 大作</b>，伊藤 薫，若宮 翔子，荒牧 英治"
     venue: "人工知能学会論文誌. 第34巻4号"
-    paper_url: "https://www.jstage.jst.go.jp/article/tjsai/34/4/34_B-J11/_article/-char/ja/"
+    paper_url: "https://www.jstage.jst.go.jp/article/tjsai/34/4/34_B-J11/_pdf/-char/ja"
     #paper_pdf: ""
     #selected: n
     journal: y
@@ -44,7 +44,7 @@ papers:
   - title: "音声発話による認知症スクリーニング技術の開発"
     authors: "<b>柴田 大作</b>，若宮 翔子，木下 彩栄，荒牧 英治"
     venue: "医療情報学37巻6号"
-    paper_url: "https://www.jstage.jst.go.jp/article/jami/37/6/37_303/_article/-char/ja/"
+    paper_url: "https://www.jstage.jst.go.jp/article/jami/37/6/37_303/_pdf/-char/ja"
     #paper_pdf: ""
     #selected: n
     journal: y
@@ -64,7 +64,7 @@ papers:
   - title: "Detecting Alzheimer’s Disease based on Word Category Frequencies"
     authors: "<b>Daisaku Shibata</b>, Shoko Wakamiya, Ayae Kinoshita, Eiji Aramaki"
     venue: "In Proc. of the International Conference on Computational Linguistics Workshop on Clinical Natural Language Processing"
-    paper_url: "https://aclanthology.org/W16-4211/"
+    paper_url: "https://aclanthology.org/W16-4211.pdf"
     iconf: y
     #selected: n
     #journal: n
@@ -86,7 +86,7 @@ papers:
   - title: "希少・難治性疾患の症例報告テキストコーパスと情報抽出精度の評価"
     authors: "<b>柴田 大作</b>, 河添 悦昌, 篠原 恵美子, 嶋本 公徳"
     venue: "2022年度 人工知能学会全国大会 (第36回)"
-    paper_url: 
+    paper_url: "https://www.jstage.jst.go.jp/article/pjsai/JSAI2022/0/JSAI2022_1J4OS13a03/_pdf/-char/ja"
     code: "https://github.com/aih-uth/IE-from-iCorpus"
     selected: y
     dconf: y
@@ -102,6 +102,12 @@ papers:
     dconf: y
     #selected: n
     #journal: n
+
+  - title: "電子カルテテキストを自動臨床データベース化する要約システムの開発"
+    authors: "<b>柴田 大作</b>, 若宮 翔子, 伊藤 薫, 荒川 豊, 吉江 智秀, 荒牧 英治"
+    venue: "医療情報学会・人工知能学会 AIM合同研究会"
+    paper_url: "https://www.jstage.jst.go.jp/article/jsaisigtwo/2018/AIMED-006/2018_01/_pdf/-char/ja"
+    dconf: y
 
 
   #- title: "Social Catalysts: Characterizing People Who Spark Conversations Among Others"
