@@ -1,0 +1,55 @@
+experiences:
+
+- place: "NEC"
+  time: "2023 - Now"
+  title: "研究員"
+  #subtitle: "医療AI開発学講座"
+  category: "work"
+
+
+- place: "東京大学大学院"
+  time: "2021 - 2023"
+  title: "医学系研究科  <br/> 特任助教"
+  subtitle: "医療AI開発学講座"
+  category: "work"
+
+- place: "奈良先端科学技術大学院大学"
+  time: "2018 - 2021"
+  title: "先端科学技術研究科 情報学領域  <br/> 博士後期期程"
+  subtitle: "ソーシャル・コンピューティング研究室 <br/>指導教員: 荒牧 英治教授，若宮 翔子准教授"
+  category: "school"
+
+- place: "日本学術振興会特別研究員"
+  time: "2020 - 2021"
+  title: "DC2"
+  category: "work"
+
+- place: "東京大学大学院医学系研究科"
+  time: "2020年 4月-11月"
+  title: "特別研究学生"
+  subtitle: "医療AI開発学講座"
+  category: "work"
+
+- place: "東京大学大学院医学系研究科"
+  time: "2019年 5月-9月"
+  title: "特別研究学生"
+  subtitle: "医療AI開発学講座"
+  category: "work"
+
+- place: "Infocom株式会社"
+  time: "2018年 5月-7月"
+  title: "リサーチインターン"
+  #subtitle: "データ分析"
+  category: "work"
+
+- place: "奈良先端科学技術大学院大学"
+  time: "2016 - 2018"
+  title: "情報科学研究科  <br/> 博士前期課程"
+  subtitle: "ソーシャル・コンピューティング研究室 <br/>指導教員: 荒牧 英治教授，若宮 翔子准教授"
+  category: "school"
+
+- place: "奈良工業高等専門学校"
+  time: "2014 - 2016"
+  title: "機械制御工学専攻 <br/> 学士課程"
+  subtitle: "指導教官: 早川 恭弘教授"
+  category: "school"

@@ -1,0 +1,181 @@
+papers:
+
+  - title: "Development of comprehensive annotation criteria for patients states from clinical texts"
+    authors: "Emiko Shinohara, <b>Daisaku Shibata</b>, Yoshimasa Kawazoe"
+    venue: "Journal of Biomedical Informatics"
+    #paper_pdf: "/assets/publications/2021_esc_the_room/paper.pdf"
+    paper_url: "https://www.sciencedirect.com/science/article/pii/S1532046422002052"
+    code: "https://github.com/aih-uth/NerRe4paper"
+    #selected: n
+    journal: y
+
+  - title: "Impact of a Clinical Text–Based Fall Prediction Model on Preventing Extended Hospital Stays for Elderly Inpatients: Model Development and Performance Evaluation"
+    authors: "Yoshimasa Kawazoe, Kiminori Shimamoto, <b>Daisaku Shibata</b>, Emiko Shinohara, Hideaki Kawaguchi, Tomotaka Yamamoto"
+    venue: "JMIR Medical Informatics 10 (7), e37913"
+    paper_pdf: "https://medinform.jmir.org/2022/7/e37913/"
+    selected: n
+    journal: y
+
+  - title: "A clinical specific BERT developed using a huge Japanese clinical text corpus"
+    authors: "Yoshimasa Kawazoe, <b>Daisaku Shibata</b>, Emiko Shinohara, Eiji Aramaki, Kazuhiko Ohe"
+    venue: "PLOS ONE 16(11): e0259763"
+    paper_url: "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0259763"
+    #paper_pdf: "/assets/publications/2022_newsbridge/paper.pdf"
+    selected: y
+    journal: y
+
+  - title: "診療記録で事前学習したBERTによる疼痛表現の抽出"
+    authors: "<b>柴田 大作</b>, 河添 悦昌, 嶋本 公徳, 篠原 恵美子, 荒牧 英治"
+    venue: "医療情報学40巻2号"
+    #paper_pdf: "/assets/publications/2022_newsbridge/paper.pdf"
+    paper_url: "https://www.jstage.jst.go.jp/article/jami/40/2/40_73/_pdf/-char/ja"
+    #selected: n
+    journal: y
+
+  - title: "対照群付き高齢者コーパスの構築とそれを用いた認知症予備軍スクリーニング技術の開発"
+    authors: "<b>柴田 大作</b>，伊藤 薫，若宮 翔子，荒牧 英治"
+    venue: "人工知能学会論文誌. 第34巻4号"
+    paper_url: "https://www.jstage.jst.go.jp/article/tjsai/34/4/34_B-J11/_pdf/-char/ja"
+    #paper_pdf: ""
+    #selected: n
+    journal: y
+
+  - title: "Idea density in Japanese for the early detection of dementia based on narrative speech"
+    authors: "<b>Daisaku Shibata</b>, Kaoru Ito K, Hiroyuki Nagai , Taro Okahisa, Ayae Kinoshita , Eiji Aramaki"
+    venue: "PLOS ONE 13(12): e0208418"
+    paper_url: "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0208418"
+    #paper_pdf: ""
+    selected: y
+    journal: y
+
+  - title: "音声発話による認知症スクリーニング技術の開発"
+    authors: "<b>柴田 大作</b>，若宮 翔子，木下 彩栄，荒牧 英治"
+    venue: "医療情報学37巻6号"
+    paper_url: "https://www.jstage.jst.go.jp/article/jami/37/6/37_303/_pdf/-char/ja"
+    #paper_pdf: ""
+    #selected: n
+    journal: y
+
+
+# 国際会議
+
+  - title: "Towards structuring clinical texts: Joint entity and relation extraction from Japanese case report corpus"
+    authors: "<b>Daisaku Shibata</b>, Emiko Shinohara, Kiminori Shimamoto, Yoshimasa Kawazoe"
+    venue: "MedInfo 2023: 19th World Congress on Medical and Health Informatics"
+    iconf: y
+    #paper_url: ""
+    code: "https://github.com/aih-uth/joint-entity-and-relation-extraction-from-Japanese-case-report-corpus"
+    selected: y
+    #journal: n
+
+  - title: "VocabChecker: Measuring Language Abilities for Detecting Early Stage Dementia"
+    authors: "<b>Daisaku Shibata</b>, Shoko Wakamiya, Kaoru Ito, Mai Miyabe, Ayae Kinoshita, Eiji Aramaki"
+    venue: "Annual meeting of the intelligent interfaces community 2018"
+    paper_url: "https://dl.acm.org/doi/10.1145/3180308.3180332"
+    iconf: y
+    #paper_pdf: ""
+    #selected: n
+    #journal: n
+
+  - title: "Detecting Alzheimer’s Disease based on Word Category Frequencies"
+    authors: "<b>Daisaku Shibata</b>, Shoko Wakamiya, Ayae Kinoshita, Eiji Aramaki"
+    venue: "In Proc. of the International Conference on Computational Linguistics Workshop on Clinical Natural Language Processing"
+    paper_url: "https://aclanthology.org/W16-4211.pdf"
+    iconf: y
+    #selected: n
+    #journal: n
+
+
+# 国内会議
+
+  - title: "患者状態表現の病名交換コードへのマッピング"
+    authors: "<b>柴田 大作</b>, 嶋本 公徳, 篠原 恵美子, 河添 悦昌"
+    venue: "第42回医療情報学連合大会"
+    paper_url: 
+    code: "https://github.com/aih-uth/Automatic-Coding"
+    slides: "/assets/publications/JCMI42.pdf"
+    selected: y
+    dconf: y
+    #journal: n
+
+
+  - title: "希少・難治性疾患の症例報告テキストコーパスと情報抽出精度の評価"
+    authors: "<b>柴田 大作</b>, 河添 悦昌, 篠原 恵美子, 嶋本 公徳"
+    venue: "2022年度 人工知能学会全国大会 (第36回)"
+    paper_url: "https://www.jstage.jst.go.jp/article/pjsai/JSAI2022/0/JSAI2022_1J4OS13a03/_pdf/-char/ja"
+    code: "https://github.com/aih-uth/IE-from-iCorpus"
+    selected: n
+    dconf: y
+    #journal: n
+
+
+  - title: "詳細なアノテーション基準に基づく症例報告コーパスからの固有表現及び関係の抽出精度"
+    authors: "<b>柴田 大作</b>, 河添 悦昌, 篠原 恵美子, 嶋本 公徳"
+    venue: "第41回医療情報学連合大会"
+    paper_url: 
+    code: "https://github.com/aih-uth/joint-information-extraction-hs"
+    slides: "/assets/publications/JCMI41.pdf"
+    dconf: y
+    #selected: n
+    #journal: n
+
+  - title: "電子カルテテキストを自動臨床データベース化する要約システムの開発"
+    authors: "<b>柴田 大作</b>, 若宮 翔子, 伊藤 薫, 荒川 豊, 吉江 智秀, 荒牧 英治"
+    venue: "医療情報学会・人工知能学会 AIM合同研究会"
+    paper_url: "https://www.jstage.jst.go.jp/article/jsaisigtwo/2018/AIMED-006/2018_01/_pdf/-char/ja"
+    dconf: y
+
+
+  #- title: "Social Catalysts: Characterizing People Who Spark Conversations Among Others"
+    #authors: "<b>Martin Saveski</b>, Farshad Kooti, Sylvia Morelli Vitousek, Carlos Diuk, Bryce Bartlett, Lada Adamic"
+    #venue: "CSCW'21: Conference on Computer-Supported Cooperative Work and Social Computing"
+    #paper_pdf: "/assets/publications/2021_social_catalysts/paper.pdf"
+    #code: "https://github.com/facebookresearch/social-catalysts"
+    #selected: y
+
+  #- title: "Balanced Influence Maximization in the Presence of Homophily"
+    #authors: "Md Sanzeed Anwar, <b>Martin Saveski</b>, Deb Roy"
+    #venue: "WSDM'21: International Conference on Web Search and Data Mining"
+    #paper_pdf: "/assets/publications/2021_balanced_inf_max/paper.pdf"
+    #code: "https://github.com/sanzeed/balanced_influence_maximization"
+    ##data: "https://github.com/sanzeed/balanced_influence_maximization"
+    #selected: y
+
+  #- title: "Algorithmic and Human Prediction of Success in Human Collaboration From Visual Features"
+    #authors: "<b>Martin Saveski<sup>‡</sup></b>, Edmond Awad<sup>‡</sup>, Iyad Rahwan, Manuel Cebrian"
+    #venue: "Nature Scientific Reports. 2021"
+    #paper_pdf: "/assets/publications/2021_esc_the_room/paper.pdf"
+    #code: "https://doi.org/10.7910/DVN/HDT2RN"
+    #data: "https://doi.org/10.7910/DVN/HDT2RN"
+    #selected: n
+
+  #- title: "Detecting Network Effects: Randomizing Over Randomized Experiments"
+    #authors: "<b>Martin Saveski<sup>‡</sup></b>, Jean Pouget-Abadie<sup>‡</sup>, Guillaume Saint-Jacques, Weitao Duan, Souvik Ghosh, Ya Xu, Edo Airoldi"
+    #venue: "KDD'17: International Conference on Knowledge Discovery and Data Mining. 2017. (Research Track)"
+    #paper_pdf: "/assets/publications/2017_detecting_network_effects/paper.pdf"
+    #slides: "/assets/publications/2017_detecting_network_effects/slides.pdf"
+    #video: "https://www.youtube.com/watch?v=1v5_CzdRVAc"
+    #selected: y
+
+  #- title: "Topic Modeling in Twitter: Aggregating Tweets by Conversations"
+    #authors: "David Alvarez-Melis<sup>‡</sup>, <b>Martin Saveski<sup>‡</sup></b>"
+    #venue: "ICWSM'16: International AAAI Conference on Web and Social Media. 2016. (Short Paper)"
+    ##paper_pdf: "/assets/publications/2016_twitter_topic_modeling/paper.pdf"
+    #poster: "/assets/publications/2016_twitter_topic_modeling/poster.pdf"
+    #selected: n
+
+  #- title: "One-Pass Ranking Models for Low-Latency Product Recommendations"
+    #authors: "Antonino Freno, <b>Martin Saveski</b>, Rodolphe Jenatton, Cédric Archambeau"
+    #venue: "KDD'15: International Conference on Knowledge Discovery and Data Mining. 2015. (Industry Track)"
+    #paper_pdf: "/assets/publications/2015_one_pass_ranking_models/paper.pdf"
+    #poster: "/assets/publications/2015_one_pass_ranking_models/poster.pdf"
+    #slides: "/assets/publications/2015_one_pass_ranking_models/slides.pdf"
+    #selected: y
+
+  #- title: "Item Cold-Start Recommendations: Learning Local Collective Embeddings"
+    #authors: "<b>Martin Saveski</b>, Amin Mantrach."
+    #venue: "RecSys'14, ACM Conference Series on Recommender Systems. 2014."
+    ##paper_pdf: "/assets/publications/2014_item_cold_start/paper.pdf"
+    #slides: "/assets/publications/2014_item_cold_start/slides.pdf"
+    #code: "https://github.com/msaveski/LCE"
+    #selected: y
