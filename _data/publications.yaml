@@ -1,5 +1,13 @@
 papers:
 
+  - title: "Towards Structuring Clinical Texts: Joint Entity and Relation Extraction from Japanese Case Report Corpus"
+    authors: "<b>Daisaku Shibata</b>, Emiko Shinohara, Kiminori Shimamoto, Yoshimasa Kawazoe"
+    venue: "Stud Health Technol Inform. 2024 Jan 25;310:559-563"
+    paper_url: "https://ebooks.iospress.nl/doi/10.3233/SHTI231027"
+    code: "https://github.com/aih-uth/joint-entity-and-relation-extraction-from-Japanese-case-report-corpus"
+    selected: y
+    journal: y
+
   - title: "Influence of Tweets Indicating False Rumors on COVID-19 Vaccination: Case Study"
     authors: "Mai Hirabayashi, <b>Daisaku Shibata</b>, Emiko Shinohara, Yoshimasa Kawazoe"
     venue: "JMIR Form Res 2023;7:e45867"
