@@ -103,6 +103,25 @@ papers:
 
 # 国内会議
 
+  - title: "生成モデルは医療テキストの固有表現抽出に使えるか？"
+    authors: "西山 智弘, <b>柴田 大作</b>, 宇野 裕, 辻川 剛範, 北出 祐, 久保 雅洋, 矢田 竣太郎, 若宮 翔子, 荒牧 英治"
+    venue: "言語処理学会第30回年次大会 "
+    paper_url: "https://www.anlp.jp/proceedings/annual_meeting/2024/pdf_dir/C11-1.pdf"
+    #code: "https://github.com/aih-uth/Automatic-Coding"
+    #slides: "/assets/publications/JCMI42.pdf"
+    selected: n
+    dconf: y
+
+  - title: "診療テキストからの必要な検査項目の予測"
+    authors: "榎原 芽美, <b>柴田 大作</b>, 辻川 剛範, 宇野 裕, 北出 祐, 河添 悦昌, 大江 和彦, 久保 雅洋"
+    venue: "言語処理学会第30回年次大会 "
+    paper_url: "https://www.anlp.jp/proceedings/annual_meeting/2024/pdf_dir/P8-26.pdf"
+    #code: "https://github.com/aih-uth/Automatic-Coding"
+    #slides: "/assets/publications/JCMI42.pdf"
+    selected: n
+    dconf: y
+
+
   - title: "患者状態表現の病名交換コードへのマッピング"
     authors: "<b>柴田 大作</b>, 嶋本 公徳, 篠原 恵美子, 河添 悦昌"
     venue: "第42回医療情報学連合大会"
