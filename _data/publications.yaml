@@ -119,7 +119,7 @@ papers:
     #code: "https://github.com/aih-uth/Automatic-Coding"
     #slides: "/assets/publications/JCMI42.pdf"
     selected: n
-    dconf: y
+    invited: y
 
   - title: "診療科の違いが医療文書からの固有表現抽出の精度に与える影響"
     authors: "<b>柴田大作</b>, 辻川剛範, 宇野裕, 石井亮, 中川敦寛, 久保雅洋, 香取幸夫"
