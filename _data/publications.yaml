@@ -103,9 +103,36 @@ papers:
 
 # 国内会議
 
+  - title: "診療データベースを用いたカルテスクリーニング"
+    authors: "<b>柴田 大作</b>, 辻川 剛範, 渋谷 恵, 森田 智子, 久保 雅洋, 中川 敦寛, 重田 昌吾, 島田 宗昭"
+    venue: "言語処理学会第31回年次大会"
+    #paper_url: "https://www.anlp.jp/proceedings/annual_meeting/2024/pdf_dir/C11-1.pdf"
+    #code: "https://github.com/aih-uth/Automatic-Coding"
+    #slides: "/assets/publications/JCMI42.pdf"
+    selected: n
+    dconf: y
+
+  - title: "大規模言語モデルを利用した医療文書作成支援サービス：NECの技術と実装の取り組み"
+    authors: "栢 真由, <b>柴田大作</b>"
+    venue: "第44回医療情報学連合大会"
+    #paper_url: "https://www.anlp.jp/proceedings/annual_meeting/2024/pdf_dir/C11-1.pdf"
+    #code: "https://github.com/aih-uth/Automatic-Coding"
+    #slides: "/assets/publications/JCMI42.pdf"
+    selected: n
+    dconf: y
+
+  - title: "診療科の違いが医療文書からの固有表現抽出の精度に与える影響"
+    authors: "<b>柴田大作</b>, 辻川剛範, 宇野裕, 石井亮, 中川敦寛, 久保雅洋, 香取幸夫"
+    venue: "第44回医療情報学連合大会"
+    #paper_url: "https://www.anlp.jp/proceedings/annual_meeting/2024/pdf_dir/C11-1.pdf"
+    #code: "https://github.com/aih-uth/Automatic-Coding"
+    #slides: "/assets/publications/JCMI42.pdf"
+    selected: n
+    dconf: y
+
   - title: "生成モデルは医療テキストの固有表現抽出に使えるか？"
     authors: "西山 智弘, <b>柴田 大作</b>, 宇野 裕, 辻川 剛範, 北出 祐, 久保 雅洋, 矢田 竣太郎, 若宮 翔子, 荒牧 英治"
-    venue: "言語処理学会第30回年次大会 "
+    venue: "言語処理学会第30回年次大会"
     paper_url: "https://www.anlp.jp/proceedings/annual_meeting/2024/pdf_dir/C11-1.pdf"
     #code: "https://github.com/aih-uth/Automatic-Coding"
     #slides: "/assets/publications/JCMI42.pdf"
