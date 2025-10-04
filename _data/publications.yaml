@@ -106,11 +106,17 @@ papers:
   - title: "診療データベースを用いたカルテスクリーニング"
     authors: "<b>柴田 大作</b>, 辻川 剛範, 渋谷 恵, 森田 智子, 久保 雅洋, 中川 敦寛, 重田 昌吾, 島田 宗昭"
     venue: "言語処理学会第31回年次大会"
-    #paper_url: "https://www.anlp.jp/proceedings/annual_meeting/2024/pdf_dir/C11-1.pdf"
+    paper_url: "https://www.anlp.jp/proceedings/annual_meeting/2025/pdf_dir/P3-19.pdf"
     #code: "https://github.com/aih-uth/Automatic-Coding"
     #slides: "/assets/publications/JCMI42.pdf"
     selected: n
     dconf: y
+
+  - title: "医療×生成AI：NECの技術と実装の取り組み～医療文書作成と臨床試験の患者登録の効率化を例に～"
+    authors: "<b>柴田大作</b>"
+    venue: "第23回バイオ統計学フォーラム"
+    selected: n
+    invited: y
 
   - title: "大規模言語モデルを利用した医療文書作成支援サービス：NECの技術と実装の取り組み"
     authors: "栢 真由, <b>柴田大作</b>"
