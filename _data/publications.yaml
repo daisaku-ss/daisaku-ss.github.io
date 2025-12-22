@@ -112,6 +112,12 @@ papers:
     selected: n
     dconf: y
 
+  - title: "医療×LLM: 医療分野におけるNECの研究開発"
+    authors: "<b>柴田大作</b>"
+    venue: "第15回AIM 合同研究会 (人工知能学会合同研究会2025)"
+    selected: n
+    invited: y
+
   - title: "医療×生成AI：NECの技術と実装の取り組み～医療文書作成と臨床試験の患者登録の効率化を例に～"
     authors: "<b>柴田大作</b>"
     venue: "第23回バイオ統計学フォーラム"
