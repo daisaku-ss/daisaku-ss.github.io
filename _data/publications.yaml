@@ -74,6 +74,13 @@ papers:
 
 # 国際会議
 
+  - title: "Fine-Grained Prompting in Large Language Models for Accurate and Efficient TNM Staging from Radiology Reports"
+    authors: "Soma Onishi, Daisaku Shibata, Masanori Tsujikawa, Masahiro Kubo, Atsuhiro Nakagawa, Ryo Ishii, Hiroaki Furukawa, Junya Tominaga, Hideki Ota"
+    venue: "2025 47th Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC)"
+    iconf: y
+    paper_url: "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11252841"
+
+
   - title: "Towards structuring clinical texts: Joint entity and relation extraction from Japanese case report corpus"
     authors: "<b>Daisaku Shibata</b>, Emiko Shinohara, Kiminori Shimamoto, Yoshimasa Kawazoe"
     venue: "MedInfo 2023: 19th World Congress on Medical and Health Informatics"
@@ -102,6 +109,21 @@ papers:
 
 
 # 国内会議
+
+  - title: "診療テキストの利活用に向けたデータベースの自動構築とカルテスクリーニングへの適用"
+    authors: "柴田 大作, 辻川 剛範, 久保 雅洋, 中川 敦寛, 重田 昌吾, 島田 宗昭"
+    venue: "言語処理学会第32回年次大会"
+    paper_url: "https://www.anlp.jp/proceedings/annual_meeting/2026/pdf_dir/P4-10.pdf"
+    selected: n
+    dconf: y
+
+  - title: "大規模言語モデルによる日本語診療テキストからの人名抽出"
+    authors: "岩瀬 裕哉, 柴田 大作, 大西 颯真, 辻川 剛範, 渡辺 純子, 石井 亮, 中川 敦寛, 香取 幸夫, 久保 雅洋"
+    venue: "言語処理学会第32回年次大会"
+    paper_url: "https://www.anlp.jp/proceedings/annual_meeting/2026/pdf_dir/Q3-8.pdf"
+    selected: n
+    dconf: y
+
 
   - title: "診療データベースを用いたカルテスクリーニング"
     authors: "<b>柴田 大作</b>, 辻川 剛範, 渋谷 恵, 森田 智子, 久保 雅洋, 中川 敦寛, 重田 昌吾, 島田 宗昭"
