@@ -75,10 +75,16 @@ papers:
 # 国際会議
 
   - title: "Fine-Grained Prompting in Large Language Models for Accurate and Efficient TNM Staging from Radiology Reports"
-    authors: "Soma Onishi, Daisaku Shibata, Masanori Tsujikawa, Masahiro Kubo, Atsuhiro Nakagawa, Ryo Ishii, Hiroaki Furukawa, Junya Tominaga, Hideki Ota"
-    venue: "2025 47th Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC)"
+    authors: "Soma Onishi, <b>Daisaku Shibata</b>, Masanori Tsujikawa, Masahiro Kubo, Atsuhiro Nakagawa, Ryo Ishii, Hiroaki Furukawa, Junya Tominaga, Hideki Ota"
+    venue: "2025 47th Annual International Conference of the IEEE Engineering in Medicine and Biology Society"
     iconf: y
     paper_url: "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11252841"
+
+  
+  - title: "LLM-Based Two-stage Reasoning for TNM Staging: NECMedDX at the NTCIR-18 RadNLP Task"
+    authors: "Soma Onishi, <b>Daisaku Shibata</b>, Masanori Tsujikawa, Ryo Ishii, Hiroaki Furukawa, Junya Tominaga, Hideki Ota"
+    venue: "Proc. of the 18th NTCIR Conference on Evaluation of Information Access Technologies"
+    iconf: y
 
 
   - title: "Towards structuring clinical texts: Joint entity and relation extraction from Japanese case report corpus"
@@ -111,14 +117,14 @@ papers:
 # 国内会議
 
   - title: "診療テキストの利活用に向けたデータベースの自動構築とカルテスクリーニングへの適用"
-    authors: "柴田 大作, 辻川 剛範, 久保 雅洋, 中川 敦寛, 重田 昌吾, 島田 宗昭"
+    authors: "<b>柴田 大作</b>, 辻川 剛範, 久保 雅洋, 中川 敦寛, 重田 昌吾, 島田 宗昭"
     venue: "言語処理学会第32回年次大会"
     paper_url: "https://www.anlp.jp/proceedings/annual_meeting/2026/pdf_dir/P4-10.pdf"
     selected: n
     dconf: y
 
   - title: "大規模言語モデルによる日本語診療テキストからの人名抽出"
-    authors: "岩瀬 裕哉, 柴田 大作, 大西 颯真, 辻川 剛範, 渡辺 純子, 石井 亮, 中川 敦寛, 香取 幸夫, 久保 雅洋"
+    authors: "岩瀬 裕哉, <b>柴田 大作</b>, 大西 颯真, 辻川 剛範, 渡辺 純子, 石井 亮, 中川 敦寛, 香取 幸夫, 久保 雅洋"
     venue: "言語処理学会第32回年次大会"
     paper_url: "https://www.anlp.jp/proceedings/annual_meeting/2026/pdf_dir/Q3-8.pdf"
     selected: n
@@ -133,6 +139,14 @@ papers:
     #slides: "/assets/publications/JCMI42.pdf"
     selected: n
     dconf: y
+
+
+  - title: "医療×LLM: 医療分野におけるNECの研究開発"
+    authors: "<b>診療テキストの利活用に向けたNECの医療言語処理への取り組み</b>"
+    venue: "第39回人工知能学会全国大会 企画セッション 企業ではどのように医療AI研究をしているのか？〜医療におけるNLP活用〜"
+    selected: n
+    invited: y
+
 
   - title: "医療×LLM: 医療分野におけるNECの研究開発"
     authors: "<b>柴田大作</b>"
@@ -163,6 +177,26 @@ papers:
     #slides: "/assets/publications/JCMI42.pdf"
     selected: n
     dconf: y
+
+  - title: "大規模言語モデルを用いた治療経過サマリ作成支援AIによる時間削減効果の検証"
+    authors: "宇野裕, 石井亮, 柴田大作, 石川開, 定政邦彦, 渋谷恵, 辻川剛範, 中川 敦寛, 小山田昌史, 久保雅洋, 香取幸夫"
+    venue: "日本医療情報学会 第28回医療情報学会春季学術大会シンポジウム"
+    selected: n
+    dconf: y
+
+  - title: "大規模言語モデルを用いて診療録から生成した治療経過サマリの評価"
+    authors: "石川開, 宇野裕, 石井亮, 定政邦彦, 柴田大作, 辻川剛範, 中川 敦寛, 小山田昌史, 久保雅洋, 香取幸夫"
+    venue: "第38回人工知能学会全国大会"
+    selected: n
+    dconf: y
+
+  - title: "大規模言語モデルを利用した治療経過サマリの作成支援アプリの試作"
+    authors: "宇野裕, 石井亮, 柴田大作, 石川開, 定政邦彦, 渋谷恵, 辻川剛範, 中川 敦寛, 小山田昌史, 久保雅洋, 香取幸夫"
+    venue: "第38回人工知能学会全国大会"
+    selected: n
+    dconf: y
+
+
 
   - title: "生成モデルは医療テキストの固有表現抽出に使えるか？"
     authors: "西山 智弘, <b>柴田 大作</b>, 宇野 裕, 辻川 剛範, 北出 祐, 久保 雅洋, 矢田 竣太郎, 若宮 翔子, 荒牧 英治"
