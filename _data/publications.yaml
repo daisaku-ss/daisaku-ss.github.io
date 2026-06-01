@@ -76,14 +76,14 @@ papers:
 
   - title: "Fine-Grained Prompting in Large Language Models for Accurate and Efficient TNM Staging from Radiology Reports"
     authors: "Soma Onishi, <b>Daisaku Shibata</b>, Masanori Tsujikawa, Masahiro Kubo, Atsuhiro Nakagawa, Ryo Ishii, Hiroaki Furukawa, Junya Tominaga, Hideki Ota"
-    venue: "2025 47th Annual International Conference of the IEEE Engineering in Medicine and Biology Society"
+    venue: "47th Annual International Conference of the IEEE Engineering in Medicine and Biology Society"
     iconf: y
     paper_url: "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11252841"
 
   
   - title: "LLM-Based Two-stage Reasoning for TNM Staging: NECMedDX at the NTCIR-18 RadNLP Task"
     authors: "Soma Onishi, <b>Daisaku Shibata</b>, Masanori Tsujikawa, Ryo Ishii, Hiroaki Furukawa, Junya Tominaga, Hideki Ota"
-    venue: "Proc. of the 18th NTCIR Conference on Evaluation of Information Access Technologies"
+    venue: "The 18th NTCIR Conference on Evaluation of Information Access Technologies"
     iconf: y
 
 
