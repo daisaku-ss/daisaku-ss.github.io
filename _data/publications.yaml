@@ -85,7 +85,7 @@ papers:
     authors: "Soma Onishi, <b>Daisaku Shibata</b>, Masanori Tsujikawa, Ryo Ishii, Hiroaki Furukawa, Junya Tominaga, Hideki Ota"
     venue: "The 18th NTCIR Conference on Evaluation of Information Access Technologies"
     iconf: y
-
+    paper_url: "https://research.nii.ac.jp/ntcir/workshop/OnlineProceedings18/pdf/ntcir/07-NTCIR18-RADNLP-OnishiS.pdf"
 
   - title: "Towards structuring clinical texts: Joint entity and relation extraction from Japanese case report corpus"
     authors: "<b>Daisaku Shibata</b>, Emiko Shinohara, Kiminori Shimamoto, Yoshimasa Kawazoe"
@@ -181,6 +181,7 @@ papers:
   - title: "大規模言語モデルを用いた治療経過サマリ作成支援AIによる時間削減効果の検証"
     authors: "宇野裕, 石井亮, 柴田大作, 石川開, 定政邦彦, 渋谷恵, 辻川剛範, 中川 敦寛, 小山田昌史, 久保雅洋, 香取幸夫"
     venue: "日本医療情報学会 第28回医療情報学会春季学術大会シンポジウム"
+    paper_url: "https://www.jstage.jst.go.jp/article/jami/44/6/44_44.295/_pdf/-char/ja"
     selected: n
     dconf: y
 
